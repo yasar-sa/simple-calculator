@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.row{
+    display: flex;
+    
+}
+.circle{
+    background-color: rgb(172, 172, 172);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.circle:hover{
+    background-color:rgb(221, 221, 221) ;
+}
+
+#grey{
+color: black;}
+
+#lgrey{
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+
+#lgrey:hover{
+    background-color: rgb(122, 122, 122);
+}
+
+#yellow{
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
+
+#yellow:hover{
+    background-color: rgb(255, 176, 57);
+}
+
+.zero{
+    width: 200px;
+}

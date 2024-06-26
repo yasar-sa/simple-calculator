@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 id="results">0</h1>
+        </div>
+        <div class="row">
+            <div class="circle zero" id="grey" onclick="clearDisplay()">AC</div>
+            <div class="circle" id="grey" onclick="appendToDisplay('.')">.</div>
+            <div class="circle" id="yellow" onclick="appendToDisplay('/')">/</div>
+        </div>
+        <div class="row">
+            <div class="circle" id="lgrey" onclick="appendToDisplay('7')">7</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('8')">8</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('9')">9</div>
+            <div class="circle" id="yellow" onclick="appendToDisplay('*')">x</div>
+        </div>
+        <div class="row">
+            <div class="circle" id="lgrey" onclick="appendToDisplay('4')">4</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('5')">5</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('6')">6</div>
+            <div class="circle" id="yellow" onclick="appendToDisplay('-')">-</div>
+        </div>
+        <div class="row">
+            <div class="circle" id="lgrey" onclick="appendToDisplay('1')">1</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('2')">2</div>
+            <div class="circle" id="lgrey" onclick="appendToDisplay('3')">3</div>
+            <div class="circle" id="yellow" onclick="appendToDisplay('+')">+</div>
+        </div>
+        <div class="row">
+            <div class="circle zero" id="lgrey" onclick="appendToDisplay('0')">0</div>
+            <div class="circle zero" id="yellow" onclick="calculate()">=</div>
+        </div>
+    </div>
+</body>
+</html>
